@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Intro() {
   return (
-    <section>
+    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
       <div className='flex items-center justify-center'>
         <div>
           <motion.div
@@ -27,11 +27,15 @@ export default function Intro() {
         </div>
       </div>
 
-      <p>
+      <motion.p
+        className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
         Hi, I&apos;m Jacob. I&apos;m a software engineer and web
         developer. I specialize in front-end development, but I have
         experience with back-end development as well.
-      </p>
+      </motion.p>
     </section>
   );
 }
