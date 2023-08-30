@@ -44,32 +44,42 @@ export default function Intro() {
         experience with back-end development as well.
       </motion.p>
 
-      <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
+      <motion.div
+        className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+      >
         <Link
           href='/#contact'
-          className='bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2'
+          className='bg-gray-900 group text-white px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
         >
-          Contact Me <AiTwotoneMail />
+          Contact Me{' '}
+          <AiTwotoneMail className='opacity-90 group-hover:translate-x-2 transition' />
         </Link>
         <a
-          href=''
-          className='bg-white px-7 py-3 flex items-center rounded-full gap-2'
+          href='/CV.pdf'
+          download
+          className='bg-white group border border-black/10 px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
         >
-          Download Resume <BsCloudDownloadFill />
+          Download Resume{' '}
+          <BsCloudDownloadFill className='opacity-90 group-hover:translate-y-1 transition' />
         </a>
         <a
           href='https://www.linkedin.com/in/jacob-benson-885004240/'
-          className='bg-white p-4 text-gray-700 flex items-center rounded-full gap-2'
+          target='_blank'
+          className='bg-white border border-black/10 p-4 text-gray-700 hover:text-gray-950 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'
         >
           <AiFillLinkedin />
         </a>
         <a
           href='https://github.com/bensonbjacob'
-          className='bg-white p-4 text-gray-700 flex items-center rounded-full gap-2'
+          target='_blank'
+          className='bg-white border border-black/10 p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950'
         >
           <AiFillGithub />
         </a>
-      </div>
+      </motion.div>
     </section>
   );
 }
