@@ -3,6 +3,13 @@
 import Image from 'next/image';
 import JacobImg from '../public/jacob.jpg';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+import {
+  AiTwotoneMail,
+  AiFillLinkedin,
+  AiFillGithub,
+} from 'react-icons/ai';
+import { BsCloudDownloadFill } from 'react-icons/bs';
 
 export default function Intro() {
   return (
@@ -36,6 +43,33 @@ export default function Intro() {
         developer. I specialize in front-end development, but I have
         experience with back-end development as well.
       </motion.p>
+
+      <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
+        <Link
+          href='/#contact'
+          className='bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2'
+        >
+          Contact Me <AiTwotoneMail />
+        </Link>
+        <a
+          href=''
+          className='bg-white px-7 py-3 flex items-center rounded-full gap-2'
+        >
+          Download Resume <BsCloudDownloadFill />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/jacob-benson-885004240/'
+          className='bg-white p-4 text-gray-700 flex items-center rounded-full gap-2'
+        >
+          <AiFillLinkedin />
+        </a>
+        <a
+          href='https://github.com/bensonbjacob'
+          className='bg-white p-4 text-gray-700 flex items-center rounded-full gap-2'
+        >
+          <AiFillGithub />
+        </a>
+      </div>
     </section>
   );
 }
