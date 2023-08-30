@@ -1,11 +1,17 @@
-import React from 'react';
+'use client';
+
+import Heading from './heading';
+import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <section className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'>
-      <h2 className='text-3xl font-medium capitalize mb-8'>
-        About Me
-      </h2>
+    <motion.section
+      className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'
+      initial={{ y: 100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ delay: 0.25 }}
+    >
+      <Heading>About Me</Heading>
       <p className='mb-3 '>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Veniam ab provident numquam nihil officiis quis labore.
@@ -14,6 +20,6 @@ export default function About() {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         Praesentium ipsa cupiditate perferendis.
       </p>
-    </section>
+    </motion.section>
   );
 }
