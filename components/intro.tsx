@@ -24,8 +24,6 @@ export default function Intro() {
             <Image
               src={JacobImg}
               alt='Jacob Benson image'
-              width='192'
-              height='192'
               quality='95'
               priority={true}
               className='object-cover h-36 w-36 rounded-full border-[0.35rem] border-white shadow-xl'
