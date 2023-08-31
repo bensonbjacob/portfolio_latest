@@ -13,7 +13,10 @@ import { BsCloudDownloadFill } from 'react-icons/bs';
 
 export default function Intro() {
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section
+      id='home'
+      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-36'
+    >
       <div className='flex items-center justify-center'>
         <div>
           <motion.div
