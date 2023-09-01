@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import JacobImg from '../public/jacob.jpg';
 import { motion } from 'framer-motion';
@@ -11,21 +11,11 @@ import {
   AiFillGithub,
 } from 'react-icons/ai';
 import { BsCloudDownloadFill } from 'react-icons/bs';
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section-context';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection, timeOfLastClick } =
-    useActiveSectionContext();
+  const { ref } = useSectionInView('Home', 0.5);
 
-  useEffect(() => {
-    if (inView && Date.now() - timeOfLastClick > 1000) {
-      setActiveSection('Home');
-    }
-  }, [inView, setActiveSection, timeOfLastClick]);
   return (
     <section
       ref={ref}
