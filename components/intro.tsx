@@ -12,9 +12,12 @@ import {
 } from 'react-icons/ai';
 import { BsCloudDownloadFill } from 'react-icons/bs';
 import { useSectionInView } from '@/lib/hooks';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5);
+  const { setActiveSection, setTimeOfLastClick } =
+    useActiveSectionContext();
 
   return (
     <section
@@ -58,6 +61,10 @@ export default function Intro() {
       >
         <Link
           href='/#contact'
+          onClick={() => {
+            setActiveSection('Contact');
+            setTimeOfLastClick(Date.now());
+          }}
           className='bg-gray-900 group text-white px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
         >
           Contact Me{' '}
