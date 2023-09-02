@@ -73,7 +73,7 @@ export default function Intro() {
         <a
           href='/CV.pdf'
           download
-          className='bg-white group border border-black/10 px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
+          className='bg-white group borderBlack px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
         >
           Download Resume{' '}
           <BsCloudDownloadFill className='opacity-90 group-hover:translate-y-1 transition' />
@@ -81,14 +81,14 @@ export default function Intro() {
         <a
           href='https://www.linkedin.com/in/jacob-benson-885004240/'
           target='_blank'
-          className='bg-white border border-black/10 p-4 text-gray-700 hover:text-gray-950 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'
+          className='bg-white borderBlack p-4 text-gray-700 hover:text-gray-950 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'
         >
           <AiFillLinkedin />
         </a>
         <a
           href='https://github.com/bensonbjacob'
           target='_blank'
-          className='bg-white border border-black/10 p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950'
+          className='bg-white borderBlack p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950'
         >
           <AiFillGithub />
         </a>
