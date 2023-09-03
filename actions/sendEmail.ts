@@ -23,8 +23,9 @@ export const sendEmail = async (formData: FormData) => {
     };
   }
 
+  let data;
   try {
-    await resend.emails.send({
+    data = await resend.emails.send({
       from: 'Portfolio Contact Form <onboarding@resend.dev>',
       to: 'halter_curds.0r@icloud.com',
       subject: 'Message from Portfolio',
@@ -40,4 +41,8 @@ export const sendEmail = async (formData: FormData) => {
       error: getErrorMessage(error),
     };
   }
+
+  return {
+    data,
+  };
 };

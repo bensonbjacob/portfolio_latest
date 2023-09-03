@@ -36,7 +36,12 @@ export default function Contact() {
       <form
         className='mt-7 flex flex-col'
         action={async (formData) => {
-          await sendEmail(formData);
+          const { data, error } = await sendEmail(formData);
+          if (error) {
+            alert(error);
+            return;
+          }
+          alert('Email Sent!');
         }}
       >
         <input
