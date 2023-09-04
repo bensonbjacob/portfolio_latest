@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BsSun, BsMoon } from 'react-icons/bs';
 
 type Theme = 'light' | 'dark';
@@ -17,6 +17,15 @@ export default function ThemeSwitch() {
       window.localStorage.setItem('theme', 'light');
     }
   };
+
+  useEffect(() => {
+    const localTheme = window.localStorage.getItem(
+      'theme'
+    ) as Theme | null;
+    if (localTheme) {
+      setTheme(localTheme);
+    }
+  }, []);
 
   return (
     <button
