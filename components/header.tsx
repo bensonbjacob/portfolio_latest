@@ -32,7 +32,7 @@ export default function Header() {
                 className={clsx(
                   'flex w-full items-center justify-center p-3 hover:text-gray-950 transition dark:text-gray-100 dark:hover:text-opacity-75',
                   {
-                    'text-gray-950 dark:text-gray-100 dark:text-opacity-80':
+                    'text-gray-950 dark:text-gray-50 dark:text-opacity-80':
                       activeSection === link.name,
                   }
                 )}
