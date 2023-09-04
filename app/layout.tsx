@@ -22,10 +22,10 @@ export default function RootLayout({
   return (
     <html lang='en' className='!scroll-smooth'>
       <body
-        className={`${inter.className} bg-gray-50 dark:bg-gray-900 text-gray-950 dark:text-gray-50 dark:text-opacity-90 relative pt-28 sm:pt-36`}
+        className={`${inter.className} bg-mountain-meadow-50 dark:bg-gradient-to-r from-mountain-meadow-700 to-mountain-meadow-900  text-gray-950 dark:text-gray-100 dark:text-opacity-90 relative pt-28 sm:pt-36`}
       >
-        <div className='bg-[#FBE2E3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]'></div>
-        <div className='bg-[#DBD7FB] absolute -z-10 top-[-1rem] left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[5rem] dark:bg-[#676394]'></div>
+        <div className='bg-mountain-meadow-200 absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-mountain-meadow-500'></div>
+        <div className='bg-mountain-meadow-100 absolute -z-10 top-[-1rem] left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[5rem] dark:bg-mountain-meadow-400'></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
