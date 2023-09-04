@@ -56,7 +56,7 @@ export default function Experience() {
                 {item.title}
               </h3>
               <p className='font-normal !mt-0'>{item.location}</p>
-              <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>
+              <p className='!mt-1 !font-normal text-gray-700 dark:text-white/90'>
                 {item.description}
               </p>
             </VerticalTimelineElement>
