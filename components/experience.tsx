@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useContext } from 'react';
 import Heading from './heading';
 import {
   VerticalTimeline,
@@ -9,9 +9,11 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
+import { useTheme } from '@/context/theme-context';
 
 export default function Experience() {
   const { ref } = useSectionInView('Experience');
+  const { theme } = useTheme();
 
   return (
     <section
@@ -25,7 +27,10 @@ export default function Experience() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: '#f3f4f6 rgba(255, 255, 255, 0.05)',
+                background:
+                  theme === 'light'
+                    ? '#f3f4f6'
+                    : 'rgba(255, 255, 255, 0.05)',
                 boxShadow: 'none',
                 border: '1px solid rgba(0, 0, 0, 0.05)',
                 textAlign: 'left',
