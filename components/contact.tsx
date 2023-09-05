@@ -23,7 +23,7 @@ export default function Contact() {
     >
       <Heading>Contact Me</Heading>
 
-      <p className='text-gray-700 -mt-4 dark:text-white/80'>
+      <p className='text-gray-700 -mt-4 dark:text-white/90'>
         Please email directly at{' '}
         <a
           className='underline'
