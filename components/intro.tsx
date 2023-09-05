@@ -48,8 +48,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I&apos;m Jacob. I&apos;m a full-stack web developer based
-        in Auburn, AL.
+        Hi, I&#39;m Jacob. I&#39;m a full-stack web developer based in
+        Auburn, AL.
       </motion.h1>
 
       <motion.div
@@ -70,7 +70,7 @@ export default function Intro() {
           <AiTwotoneMail className='opacity-90 group-hover:translate-x-2 transition' />
         </Link>
         <a
-          href='/CV.pdf'
+          href='/public/assets/Jacob_Benson_Resume.pdf'
           download
           className='bg-white group borderBlack px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition dark:bg-white/10 cursor-pointer dark:text-white/90 dark:hover:text-white/60'
         >
