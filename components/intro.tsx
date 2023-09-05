@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import JacobImg from '../public/jacob.jpg';
+import JacobImg from '@/public/assets/jacob.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
