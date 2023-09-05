@@ -60,7 +60,9 @@ export default function Contact() {
           placeholder='Your message'
           className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none  transition-all'
         />
-        <SubmitBtn />
+        <div className='m-auto'>
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );
