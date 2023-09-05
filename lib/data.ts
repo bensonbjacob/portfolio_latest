@@ -1,7 +1,8 @@
 import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+import { HiDesktopComputer } from 'react-icons/hi';
+import { BsWrenchAdjustable } from 'react-icons/bs';
+import { GiHammerNails } from 'react-icons/gi';
 import promptsImg from '@/public/assets/prompts.png';
 import gutterImg from '@/public/assets/gutter.png';
 import booleImg from '@/public/assets/boole.png';
@@ -38,28 +39,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Freelance Web Developer',
+    location: 'Auburn, AL',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
-  },
-  {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'Independently managed a successful freelance web development business, delivering high-quality solutions to diverse clients.',
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2022 - Present',
+  },
+  {
+    title: 'Service and Parts Manager',
+    location: 'Auburn, AL',
+    description:
+      'Played a pivotal role in driving business growth and operational excellence by providing effective leadership and implementing strategic initiatives.',
+    icon: React.createElement(BsWrenchAdjustable),
+    date: '2020 - 2022',
+  },
+  {
+    title: 'Remodeling and Repair Contractor',
+    location: 'Auburn, AL',
+    description:
+      'Collaborated with homeowners and property management firms to manage diverse repair and addition projects across multiple properties in Lee County, AL.',
+    icon: React.createElement(GiHammerNails),
+    date: '2012 - 2020',
+  },
+  {
+    title: 'IT Manager',
+    location: 'Opelika, AL',
+    description:
+      'Offered comprehensive IT support, proactively resolving technical challenges and ensuring uninterrupted workflow. Managed website upkeep to optimize performance and provide an engaging user experience.',
+    icon: React.createElement(HiDesktopComputer),
+    date: '2014 - 2016',
   },
 ] as const;
 
