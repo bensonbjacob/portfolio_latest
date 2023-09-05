@@ -69,7 +69,7 @@ export const projectsData = [
     github: 'https://github.com/bensonbjacob/ai_prompts',
     demo: 'https://share-prompts-gamma.vercel.app/',
     description:
-      'Prompts allows users to create, discover, and share AI prompts, fostering a collaborative environment for creative writing and ideation. With Prompts, you can unleash your imagination and explore a diverse range of prompts contributed by others.',
+      'Prompts allows users to create, discover, and share AI prompts, fostering a collaborative environment for creative writing and ideation.',
     tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
     imageUrl: promptsImg,
   },
@@ -78,7 +78,7 @@ export const projectsData = [
     github: 'https://github.com/bensonbjacob/gutter-nextjs',
     demo: 'https://gutter-nextjs.vercel.app/',
     description:
-      'Years ago, I helped my friend with his gutter installation business for a few weeks while he was expanding. I was surprised at how much time he spent composing simple estimates based on the measurements he took on each potential job. I had the idea to create a basic calculator and I filed it away under my list of future projects. When I finally found myself with time to work on projects of my own, the gutter calculator was one of the first I completed.',
+      'This is a simple calculator that allows you to esimate the cost of gutter fabrication jobs.',
     tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
     imageUrl: gutterImg,
   },
@@ -87,7 +87,7 @@ export const projectsData = [
     github: 'https://github.com/bensonbjacob/restaurant-page',
     demo: 'https://restaurant-page-rosy.vercel.app/',
     description:
-      'This is a React app that serves as the web page for an imaginary restaurant. The site uses custom CSS styles without relying on any frameworks.',
+      'An app that serves as the web page for an imaginary restaurant. The site uses custom CSS styles without relying on any frameworks',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
     imageUrl: restaurantImg,
   },
@@ -96,7 +96,7 @@ export const projectsData = [
     github: 'https://github.com/chingu-voyages/v44-tier2-team-21',
     demo: 'https://boolebots21.netlify.app/',
     description:
-      'Boolebots is an automated boolean logic game that allows users to test their skills in logic and problem solving. The game is built with React and Node.js, and it features a user-friendly interface and challenging levels.',
+      'Boole Bots is a game that is not only fun, but also an aid in helping to understand basic Boolean logic.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
     imageUrl: booleImg,
   },
@@ -114,7 +114,7 @@ export const projectsData = [
     github: 'https://github.com/bensonbjacob/lcliving',
     demo: 'https://lcliving.vercel.app/',
     description:
-      'This is a NextJS app that allows you to filter available properties in the UAE using the free Bayut API. This was my first NextJS project. It allowed me to become familiar with the framework while also allowing me to practice using a new API.',
+      'This is a NextJS app that allows you to filter available properties in the UAE using the free Bayut API.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
     imageUrl: propertyImg,
   },
