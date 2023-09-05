@@ -18,12 +18,19 @@ export default function About() {
     >
       <Heading>About Me</Heading>
       <p className='mb-3'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Veniam ab provident numquam nihil officiis quis labore.
+        From hammering nails to crafting code, my journey has been an
+        exploration of two worlds: carpentry and web development. As a
+        seasoned carpenter and construction manager, I&apros;ve built
+        structures that stand the test of time, where precision and
+        attention to detail are paramount.
       </p>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Praesentium ipsa cupiditate perferendis.
+        Yet, my early fascination with technology never waned. As a
+        teenager, I dabbled in web development and QBASIC, creating
+        digital spaces and programs just as meticulously as physical
+        ones. Today, I&apros;ve transitioned into a full-stack web
+        developer, combining my craftsmanship mindset with digital
+        innovation.
       </p>
     </motion.section>
   );

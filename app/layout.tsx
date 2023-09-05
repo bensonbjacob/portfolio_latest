@@ -10,7 +10,7 @@ import ThemeContextProvider from '@/context/theme-context';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Jacob Benson | Full Stack Developer',
+  title: 'Jacob Benson | Full-Stack Developer',
   description: 'Full Stack Developer based in Auburn, AL.',
 };
 

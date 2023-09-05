@@ -48,9 +48,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I&apos;m Jacob. I&apos;m a software engineer and web
-        developer. I specialize in front-end development, but I have
-        experience with back-end development as well.
+        Hi, I&apos;m Jacob. I&apos;m a full-stack web developer based
+        in Auburn, AL.
       </motion.h1>
 
       <motion.div
