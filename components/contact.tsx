@@ -19,19 +19,19 @@ export default function Contact() {
       viewport={{ once: true }}
       ref={ref}
       id='contact'
-      className='text-center mb-20 sm:mb-28 w-[min(100% ,38rem)]'
+      className='text-center mb-20 sm:mb-28 w-[min(100%,38rem)]'
     >
       <Heading>Contact Me</Heading>
 
       <p className='text-gray-700 -mt-4 dark:text-white/90'>
-        Please email directly at{' '}
+        Please{' '}
         <a
           className='underline'
           href='mailto:jacob.benson.dev@gmail.com'
         >
-          jacob.benson.dev@gmail.com
+          email
         </a>{' '}
-        or use this form.
+        me directly or use this form.
       </p>
 
       <form
