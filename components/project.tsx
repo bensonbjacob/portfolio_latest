@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
 import { useScroll, motion, useTransform } from 'framer-motion';
+import { AiFillGithub } from 'react-icons/ai';
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -32,7 +33,23 @@ export default function Project({
     >
       <article className='bg-gray-100 hover:bg-gray-200 transition max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] sm:group-even:pl-8 dark:bg-mountain-meadow-300/30 dark:hover:bg-mountain-meadow-300/10 dark:text-white'>
         <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] h-full flex flex-col sm:group-even:ml-[18rem]'>
-          <h3 className='text-2xl font-semibold'>{title}</h3>
+          <div className='flex flex-row items-center'>
+            <h3 className='text-2xl font-semibold'>{title}</h3>
+            <a
+              href='https://github.com/bensonbjacob'
+              target='_blank'
+              className='bg-black/[0.7] borderBlack ml-2 p-2 text-white text-[1.5rem] flex items-center rounded-full outline-none focus:scale-[1.25] hover:scale-[1.25] active:scale-105 transition hover:text-gray-400 dark:bg-white/10 cursor-pointer dark:text-white dark:hover:text-white/60'
+            >
+              <AiFillGithub />
+            </a>
+            <a
+              href='https://github.com/bensonbjacob'
+              target='_blank'
+              className='bg-black/[0.7] borderBlack ml-2 p-3 font-semibold text-sm text-white text-[1.5rem] flex items-center rounded-full outline-none focus:scale-[1.25] hover:scale-[1.25] active:scale-105 transition hover:text-gray-400 dark:bg-white/10 cursor-pointer dark:text-white dark:hover:text-white/60'
+            >
+              Demo
+            </a>
+          </div>
           <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/90'>
             {description}
           </p>
