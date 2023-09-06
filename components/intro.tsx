@@ -23,7 +23,7 @@ export default function Intro() {
     <section
       ref={ref}
       id='home'
-      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-36'
+      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-36 dark:text-[rgb(97,244,241)]'
     >
       <div className='flex items-center justify-center'>
         <div>
@@ -37,7 +37,7 @@ export default function Intro() {
               alt='Jacob Benson image'
               quality='95'
               priority={true}
-              className='object-cover h-36 w-36 rounded-full border-[0.35rem] border-white dark:border-mountain-meadow-100 shadow-xl'
+              className='object-cover h-36 w-36 rounded-full border-[0.35rem] border-white dark:border-[rgb(130,175,174)]'
             />
           </motion.div>
         </div>
@@ -64,7 +64,7 @@ export default function Intro() {
             setActiveSection('Contact');
             setTimeOfLastClick(Date.now());
           }}
-          className='bg-gray-900 group text-white px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-mountain-meadow-950 dark:bg-opacity-60'
+          className='bg-gray-900 group text-white px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-transparent dark:hover:bg-[rgb(63,85,104)] dark:border dark:border-[rgb(61,83,101)] dark:hover:border-[rgb(130,175,174)]'
         >
           Contact Me{' '}
           <AiTwotoneMail className='opacity-90 group-hover:translate-x-2 transition' />
@@ -72,7 +72,7 @@ export default function Intro() {
         <a
           href='/public/assets/Jacob_Benson_Resume.pdf'
           download
-          className='bg-white group borderBlack px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition dark:bg-white/10 cursor-pointer dark:text-white/90 dark:hover:text-white/60'
+          className='bg-white group borderBlack px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition dark:bg-[rgb(51,68,89)] dark:hover:bg-[rgb(63,85,104)] cursor-pointer dark:text-white dark:border dark:border-[rgb(71,87,105)]'
         >
           Download Resume{' '}
           <BsCloudDownloadFill className='opacity-90 group-hover:translate-y-1 transition' />
@@ -80,14 +80,14 @@ export default function Intro() {
         <a
           href='https://www.linkedin.com/in/jacob-benson-885004240/'
           target='_blank'
-          className='bg-white borderBlack p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950 dark:bg-white/10 cursor-pointer dark:text-white/90 dark:hover:text-white/60'
+          className='bg-white borderBlack p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950 cursor-pointer dark:text-white dark:border dark:border-[rgb(71,87,105)] dark:bg-[rgb(51,68,89)] dark:hover:bg-[rgb(63,85,104)]'
         >
           <AiFillLinkedin />
         </a>
         <a
           href='https://github.com/bensonbjacob'
           target='_blank'
-          className='bg-white borderBlack p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950 dark:bg-white/10 cursor-pointer dark:text-white/90 dark:hover:text-white/60'
+          className='bg-white borderBlack p-4 text-gray-700 text-[1.5rem] flex items-center rounded-full gap-2 outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950 cursor-pointer dark:text-white dark:border dark:border-[rgb(71,87,105)] dark:bg-[rgb(51,68,89)] dark:hover:bg-[rgb(63,85,104)]'
         >
           <AiFillGithub />
         </a>
