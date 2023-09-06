@@ -28,7 +28,7 @@ export default function About() {
         Yet, my early fascination with technology never waned. As a
         teenager, I dabbled in web development and QBASIC, creating
         digital spaces and programs just as meticulously as I
-        completed consturction projects. Today, I&#39;ve transitioned
+        completed construction projects. Today, I&#39;ve transitioned
         into a full-stack web developer, combining my craftsmanship
         mindset with digital innovation.
       </p>
