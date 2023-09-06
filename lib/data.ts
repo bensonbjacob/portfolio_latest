@@ -9,6 +9,7 @@ import booleImg from '@/public/assets/boole.png';
 import leeCountyImg from '@/public/assets/leecounty.png';
 import propertyImg from '@/public/assets/property.png';
 import restaurantImg from '@/public/assets/restaurant.png';
+import filePythonImg from '@/public/assets/filePython.png';
 
 export const links = [
   {
@@ -79,7 +80,7 @@ export const projectsData = [
     demo: 'https://share-prompts-gamma.vercel.app/',
     description:
       'Prompts allows users to create, discover, and share AI prompts, fostering a collaborative environment for creative writing and ideation.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'NextAuth'],
     imageUrl: promptsImg,
   },
   {
@@ -88,7 +89,7 @@ export const projectsData = [
     demo: 'https://gutter-nextjs.vercel.app/',
     description:
       'This is a simple calculator that allows you to esimate the cost of gutter fabrication jobs.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+    tags: ['React', 'Next.js', 'Tailwind'],
     imageUrl: gutterImg,
   },
   {
@@ -96,9 +97,18 @@ export const projectsData = [
     github: 'https://github.com/bensonbjacob/restaurant-page',
     demo: 'https://restaurant-page-rosy.vercel.app/',
     description:
-      'An app that serves as the web page for an imaginary restaurant. The site uses custom CSS styles without relying on any frameworks',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'An app that serves as the web page for an imaginary restaurant. The site uses custom CSS styles without relying on any frameworks.',
+    tags: ['React', 'CSS'],
     imageUrl: restaurantImg,
+  },
+  {
+    title: 'File Organizer',
+    github: 'https://github.com/bensonbjacob/File-Organizer',
+    demo: 'https://github.com/bensonbjacob/File-Organizer',
+    description:
+      'This is a Python script that helps you organize your files in the Desktop and Downloads folder automatically.',
+    tags: ['Python'],
+    imageUrl: filePythonImg,
   },
   {
     title: 'Boole Bots',
@@ -106,7 +116,7 @@ export const projectsData = [
     demo: 'https://boolebots21.netlify.app/',
     description:
       'Boole Bots is a game that is not only fun, but also an aid in helping to understand basic Boolean logic.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+    tags: ['React', 'Tailwind'],
     imageUrl: booleImg,
   },
   {
@@ -115,7 +125,7 @@ export const projectsData = [
     demo: 'https://lee-county-deck.vercel.app/',
     description:
       'A marketing/landing page for an imaginary deck and fence company.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+    tags: ['React', 'Next.js', 'Tailwind'],
     imageUrl: leeCountyImg,
   },
   {
@@ -124,7 +134,7 @@ export const projectsData = [
     demo: 'https://lcliving.vercel.app/',
     description:
       'This is a NextJS app that allows you to filter available properties in the UAE using the free Bayut API.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+    tags: ['React', 'Next.js', 'Chakra-UI', 'Framer Motion'],
     imageUrl: propertyImg,
   },
 ] as const;
@@ -136,15 +146,18 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Next.js',
+  'NextAuth',
   'Node.js',
   'Git',
   'Tailwind',
   'Framer Motion',
   'Prisma',
+  'BootStrap',
   'MongoDB',
   'GraphQL',
   'Apollo',
   'Express',
+  'Vite',
   'Firebase',
   'SQL',
   'R',
