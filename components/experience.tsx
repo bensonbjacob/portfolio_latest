@@ -40,8 +40,8 @@ export default function Experience() {
               contentArrowStyle={{
                 borderRight:
                   theme === 'light'
-                    ? '04.rem solid #9ca3af'
-                    : '0.4rem solid rgba(255, 255, 255, 0.05)',
+                    ? '0.4rem solid #9ca3af'
+                    : '0.6rem solid rgb(71,87,105)',
               }}
               date={item.date}
               icon={item.icon}
