@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className='z-[999] relative'>
       <motion.div
-        className='fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.07] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-mountain-meadow-600 dark:border-mountain-meadow-700 dark:bg-opacity-80'
+        className='fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.07] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-[#0D1B45] dark:border-none'
         initial={{ y: -100, x: '-50%', opacity: 0 }}
         animate={{ y: 0, x: '-50%', opacity: 1 }}
       ></motion.div>
@@ -30,9 +30,9 @@ export default function Header() {
             >
               <Link
                 className={clsx(
-                  'flex w-full items-center justify-center p-3 hover:text-gray-950 transition dark:text-gray-100 dark:hover:text-opacity-75',
+                  'flex w-full items-center justify-center p-3 hover:text-gray-950 transition dark:hover:text-[#EBF7EF] dark:hover:text-opacity-75',
                   {
-                    'text-gray-950 dark:text-gray-50 dark:text-opacity-80':
+                    'text-gray-950 dark:text-[#82AFAE]':
                       activeSection === link.name,
                   }
                 )}
@@ -51,7 +51,7 @@ export default function Header() {
                       stiffness: 400,
                       damping: 30,
                     }}
-                    className='bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-mountain-meadow-700'
+                    className='bg-gray-200 rounded-full absolute inset-0 -z-10 dark:bg-[#213256]'
                   ></motion.span>
                 )}
               </Link>
