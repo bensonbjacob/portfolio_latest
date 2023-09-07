@@ -13,6 +13,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  github,
+  demo,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -38,14 +40,14 @@ export default function Project({
               {title}
             </h3>
             <a
-              href='https://github.com/bensonbjacob'
+              href={github}
               target='_blank'
               className='bg-black/[0.7] borderBlack ml-2 p-2 text-white text-[1.5rem] flex items-center rounded-full outline-none focus:scale-[1.25] hover:scale-[1.25] active:scale-105 transition hover:text-gray-400 dark:text-white dark:border dark:border-[rgb(71,87,105)] dark:bg-[rgb(51,68,89)] dark:hover:bg-[rgb(63,85,104)]'
             >
               <AiFillGithub />
             </a>
             <a
-              href='https://github.com/bensonbjacob'
+              href={demo}
               target='_blank'
               className='bg-black/[0.7] borderBlack ml-2 p-3 font-semibold text-sm text-white text-[1.5rem] flex items-center rounded-full outline-none focus:scale-[1.25] hover:scale-[1.25] active:scale-105 transition hover:text-gray-400 dark:text-white dark:border dark:border-[rgb(71,87,105)] dark:bg-[rgb(51,68,89)] dark:hover:bg-[rgb(63,85,104)]'
             >
