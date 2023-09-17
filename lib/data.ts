@@ -144,6 +144,7 @@ export const skillsData = [
   'CSS',
   'JavaScript',
   'TypeScript',
+  'Jest',
   'React',
   'Next.js',
   'NextAuth',
