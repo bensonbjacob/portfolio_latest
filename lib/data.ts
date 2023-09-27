@@ -157,6 +157,7 @@ export const skillsData = [
   'MongoDB',
   'GraphQL',
   'Apollo',
+  'Webpack',
   'Express',
   'Vite',
   'Firebase',
