@@ -40,6 +40,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: 'Lead Developer - GameLab ',
+    location: 'Auburn, AL',
+    description:
+      "I specialize in developing and maintaining Vue and Laravel applications while utilizing Python and Flask for backend functionalities. Additionally, I am responsible for crafting and managing our company's website using Next.js and Tailwind CSS for a seamless online experience.",
+    icon: React.createElement(FaReact),
+    date: 'Oct 2022 - Present',
+  },
+  {
     title: 'Freelance Web Developer',
     location: 'Auburn, AL',
     description:
