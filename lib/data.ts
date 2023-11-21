@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaReact } from 'react-icons/fa';
+import { CgWebsite } from 'react-icons/cg';
 import { HiDesktopComputer } from 'react-icons/hi';
 import { BsWrenchAdjustable } from 'react-icons/bs';
 import { GiHammerNails } from 'react-icons/gi';
@@ -44,7 +45,7 @@ export const experiencesData = [
     location: 'Auburn, AL',
     description:
       "I specialize in developing and maintaining Vue and Laravel applications while utilizing Python and Flask for backend functionalities. Additionally, I am responsible for crafting and managing our company's website using Next.js and Tailwind CSS for a seamless online experience.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWebsite),
     date: 'Oct 2022 - Present',
   },
   {
