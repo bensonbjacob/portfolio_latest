@@ -57,7 +57,7 @@ export const experiencesData = [
     date: '2022 - Present',
   },
   {
-    title: 'Service and Parts Manager',
+    title: 'Service and Parts Manager - Eagle Imports',
     location: 'Auburn, AL',
     description:
       'Played a pivotal role in driving business growth and operational excellence by providing effective leadership and implementing strategic initiatives.',
@@ -73,7 +73,7 @@ export const experiencesData = [
     date: '2012 - 2020',
   },
   {
-    title: 'IT Manager',
+    title: 'IT Manager - Fleet Management',
     location: 'Opelika, AL',
     description:
       'Offered comprehensive IT support, proactively resolving technical challenges and ensuring uninterrupted workflow. Managed website upkeep to optimize performance and provide an engaging user experience.',
