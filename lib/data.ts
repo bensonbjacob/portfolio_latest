@@ -162,6 +162,8 @@ export const skillsData = [
   'Tailwind',
   'Framer Motion',
   'Prisma',
+  'Vue',
+  'Laravel',
   'BootStrap',
   'MongoDB',
   'GraphQL',
@@ -173,4 +175,5 @@ export const skillsData = [
   'SQL',
   'R',
   'Python',
+  'Flask',
 ] as const;
