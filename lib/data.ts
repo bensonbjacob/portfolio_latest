@@ -156,6 +156,7 @@ export const skillsData = [
   'Jest',
   'React',
   'Next.js',
+  'Zustand',
   'NextAuth',
   'Node.js',
   'Git',
