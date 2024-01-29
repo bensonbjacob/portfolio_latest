@@ -11,6 +11,7 @@ import leeCountyImg from "@/public/assets/leecounty.png";
 import propertyImg from "@/public/assets/property.png";
 import restaurantImg from "@/public/assets/restaurant.png";
 import filePythonImg from "@/public/assets/filePython.png";
+import remoteDevImg from "@/public/assets/remoteDev.png";
 
 export const links = [
   {
@@ -83,6 +84,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "AI Prompts",
+    github: "https://github.com/bensonbjacob/rmt-dev-react",
+    demo: "https://rmt-dev-react.vercel.app/",
+    description:
+      "DEV-Jobs: A remote job search project crafted with Vanilla JS, employing ES6+ best practices. Includes state management, pagination, local storage for bookmarking, and a dynamic router for easy job listing sharing. Note: Utilizes a dummy API for simulation.",
+    tags: ["React", "Vite", "Tailwind"],
+    imageUrl: remoteDevImg,
+  },
   {
     title: "AI Prompts",
     github: "https://github.com/bensonbjacob/ai_prompts",
