@@ -90,7 +90,7 @@ export const projectsData = [
     demo: "https://rmt-dev-react.vercel.app/",
     description:
       "DEV-Jobs: A remote job search project crafted with Vanilla JS, employing ES6+ best practices. Includes state management, pagination, local storage for bookmarking, and a dynamic router for easy job listing sharing.",
-    tags: ["React", "Vite", "Tailwind"],
+    tags: ["React", "Vite", "Tailwind", "TypeScript"],
     imageUrl: remoteDevImg,
   },
   {
