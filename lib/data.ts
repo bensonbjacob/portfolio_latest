@@ -90,7 +90,7 @@ export const projectsData = [
     github: "https://github.com/bensonbjacob/job-board",
     demo: "https://job-board-three-gamma.vercel.app/",
     description:
-      "A job board will full CRUD functionalities.  It allows users to create job listings for tech jobs located within the state of Alabama.",
+      "A job board with full CRUD functionalities.  It allows users to create job listings for tech jobs located within the state of Alabama.",
     tags: ["Next.js", "Prisma", "Tailwind", "TypeScript"],
     imageUrl: yellowhammerImg,
   },
