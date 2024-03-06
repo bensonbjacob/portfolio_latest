@@ -12,6 +12,7 @@ import propertyImg from "@/public/assets/property.png";
 import restaurantImg from "@/public/assets/restaurant.png";
 import filePythonImg from "@/public/assets/filePython.png";
 import remoteDevImg from "@/public/assets/remoteDev.png";
+import yellowhammerImg from "@/public/assets/yellowhammer.png";
 
 export const links = [
   {
@@ -85,7 +86,16 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "AI Prompts",
+    title: "Yellowhammer Tech Jobs",
+    github: "https://github.com/bensonbjacob/job-board",
+    demo: "https://job-board-three-gamma.vercel.app/",
+    description:
+      "A job board will full CRUD functionalities.  It allows users to create job listings for tech jobs located within the state of Alabama.",
+    tags: ["Next.js", "Prisma", "Tailwind", "TypeScript"],
+    imageUrl: yellowhammerImg,
+  },
+  {
+    title: "Rmt Dev",
     github: "https://github.com/bensonbjacob/rmt-dev-react",
     demo: "https://rmt-dev-react.vercel.app/",
     description:
