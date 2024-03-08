@@ -65,7 +65,7 @@ export default function Intro() {
           <AiTwotoneMail className="opacity-90 group-hover:translate-x-2 transition" />
         </Link>
         <a
-          href="/public/assets/Jacob_Benson_Resume.pdf"
+          href="/assets/Jacob_Benson_Resume.pdf"
           download
           className="bg-white group borderBlack px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition dark:bg-[rgb(51,68,89)] dark:hover:bg-[rgb(63,85,104)] cursor-pointer dark:text-white dark:border dark:border-[rgb(71,87,105)]">
           Download Resume{" "}
