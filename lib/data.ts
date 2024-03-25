@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Lead Developer - GameLab ",
     location: "Auburn, AL",
     description:
-      "I specialize in developing and maintaining Vue and Laravel applications while utilizing Python and Flask for backend functionalities. Additionally, I am responsible for crafting and managing our company's website using Next.js and Tailwind CSS for a seamless online experience.",
+      "Spearhead the development and continuous maintenance of a dynamic application catering to diverse user bases, from military service members to college students across the globe. Utilize a comprehensive tech stack including HTML, CSS, JavaScript, Python, PHP, and bash scripting to create a robust and multifunctional application. Manage a complex ecosystem where the application interacts with and controls various hardware components, demonstrating adeptness in hardware-software integration.",
     icon: React.createElement(CgWebsite),
     date: "Oct 2022 - Present",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Freelance Web Developer",
     location: "Auburn, AL",
     description:
-      "Independently managed a successful freelance web development business, delivering high-quality solutions to diverse clients.",
+      "Independently managed a successful freelance web development business, delivering high-quality solutions to diverse clients. Worked with designers and clients to develop responsive and visually appealing websites tailored to clients' specific needs, utilizing HTML, CSS, JavaScript, and other relevant technologies. Managed multiple projects simultaneously, maintaining accurate timelines, and delivering projects within agreed-upon deadlines.",
     icon: React.createElement(FaReact),
     date: "2022 - Present",
   },
