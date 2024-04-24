@@ -201,4 +201,7 @@ export const skillsData = [
   "R",
   "Python",
   "Flask",
+  "Sentry",
+  "Posthog",
+  "ShadCn/UI",
 ] as const;
